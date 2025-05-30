@@ -15,6 +15,14 @@ return new class extends Migration
     }
 
     /**
+     * Determine if this migration should run.
+     */
+    public function shouldRun(): bool
+    {
+        return ! app()->isProduction();
+    }
+
+    /**
      * Run the migrations.
      */
     public function up(): void
