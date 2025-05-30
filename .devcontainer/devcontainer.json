@@ -1,0 +1,9 @@
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "laravel.test",
+    "workspaceFolder": "/var/www/html",
+    "remoteUser": "root",
+    "forwardPorts": [80, 8080, 8025, 8900],
+    "initializeCommand": "cp .env.example .env"
+}

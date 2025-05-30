@@ -73,6 +73,12 @@ return [
             'replace_placeholders' => true,
         ],
 
+        'hourly' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/'.date('Y').'/'.date('m').'/'.date('d').'/UTC-'.date('H').'.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+        ],
+
         'slack' => [
             'driver' => 'slack',
             'url' => env('LOG_SLACK_WEBHOOK_URL'),

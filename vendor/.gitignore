@@ -1,0 +1,10 @@
+*
+!/laravel/
+!/laravel/sail/
+!/laravel/sail/runtimes/
+!/laravel/sail/runtimes/8.4/
+!/laravel/sail/runtimes/8.4/**
+!/laravel/sail/database/
+!/laravel/sail/database/mysql
+!/laravel/sail/database/mysql/create-testing-database.sh
+!.gitignore

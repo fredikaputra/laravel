@@ -16,9 +16,9 @@
 /public/build
 /public/hot
 /public/storage
+/public/vendor
 /storage/*.key
 /storage/pail
-/vendor
 Homestead.json
 Homestead.yaml
 npm-debug.log
