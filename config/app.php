@@ -56,6 +56,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application URL Scheme
+    |--------------------------------------------------------------------------
+    |
+    | This option defines the scheme (e.g., http or https) for the application URL.
+    | It is primarily used by the Artisan command line tool to generate proper
+    | URLs when executing commands, ensuring URLs are consistent with the
+    | application's protocol.
+    |
+    */
+
+    'scheme' => env('APP_SCHEME', 'https'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Timezone
     |--------------------------------------------------------------------------
     |
